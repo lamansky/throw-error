@@ -1,0 +1,34 @@
+{
+  "name": "throw-error",
+  "version": "1.0.0",
+  "description": "Throws something if it’s an Error; otherwise returns it.",
+  "keywords": [
+    "throw",
+    "error"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/throw-error",
+  "repository": "lamansky/throw-error",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "is-instance-of": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
